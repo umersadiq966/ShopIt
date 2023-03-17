@@ -1,16 +1,11 @@
 {
   "expo": {
-    "name": "shopIt-native",
-    "slug": "shopIt-native",
+    "name": "Shop-It",
+    "slug": "Shop-It",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/shopit-website-favicon-color.png",
     "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
@@ -22,12 +17,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "foregroundImage": "./assets/shopit-website-favicon-color.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.umersadiq6966.shopItnative"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/shopit-website-favicon-color.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4f01e099-83c0-429d-89c4-d821a78b751a"
+      }
     }
   }
 }
